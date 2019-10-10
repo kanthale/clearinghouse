@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+      maven {
+        url "https://plugins.gradle.org/m2/"
+      }
+      mavenCentral()
+    }
+    dependencies {
+       
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+// This is used as the docker image prefix (org)
+group = 'clearinghouse'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    
+}
+
