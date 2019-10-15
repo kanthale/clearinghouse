@@ -11,6 +11,7 @@ public abstract class Person {
 
 	protected String name;
 	private String age;
-	
+	public int id;
+  
 	
 }
